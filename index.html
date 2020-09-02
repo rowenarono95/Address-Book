@@ -6,8 +6,7 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
     <link href="styles.css" rel="stylesheet" type="text/css" />
-    <script src="jquery-3.5.1.min.js"></script>
-    <script src="script.js"></script>
+
     <title>Address book</title>
   </head>
   <body>
@@ -52,7 +51,19 @@
           <h2>Contacts:</h2>
           <ul id="contacts"></ul>
         </div>
+
+        <div class="col-md-6">
+          <div id="show-contact">
+            <h2></h2>
+            <p>First name: <span class="first-name"></span></p>
+            <p>Last name: <span class="last-name"></span></p>
+            <p>Addresses:</p>
+            <ul id="addresses"></ul>
+          </div>
+        </div>
       </div>
     </div>
   </body>
+  <script src="jquery-3.5.1.min.js"></script>
+  <script src="script.js"></script>
 </html>
